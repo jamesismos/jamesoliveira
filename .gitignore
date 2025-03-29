@@ -1,0 +1,15 @@
+# Dependências
+node_modules/
+package-lock.json
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Configurações de editores
+.vscode/
+.idea/
+
+# Arquivos temporários
+*.tmp
+*.log

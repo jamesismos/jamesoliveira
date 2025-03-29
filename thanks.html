@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mensagem Enviada - James Oliveira</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    .thanks-container {
+      min-height: 80vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 2rem;
+    }
+    
+    .thanks-icon {
+      font-size: 5rem;
+      color: var(--primary-color);
+      margin-bottom: 2rem;
+    }
+    
+    .thanks-message {
+      max-width: 600px;
+      margin-bottom: 2rem;
+    }
+    
+    .thanks-message h1 {
+      margin-bottom: 1rem;
+      color: var(--primary-color);
+    }
+    
+    .thanks-message p {
+      font-size: 1.2rem;
+      margin-bottom: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>James Oliveira</h1>
+      <p class="title">Graduando em Ciência da Computação e Sistemas para Internet | Estudante.</p>
+      <p class="location"><i class="fas fa-map-marker-alt"></i> Guanhães, Minas Gerais, Brasil</p>
+    </div>
+  </header>
+
+  <main>
+    <div class="thanks-container">
+      <div class="thanks-icon">
+        <i class="fas fa-check-circle"></i>
+      </div>
+      <div class="thanks-message">
+        <h1>Mensagem Enviada!</h1>
+        <p>Obrigado por entrar em contato. Receberei sua mensagem em breve e retornarei assim que possível.</p>
+        <a href="index.html" class="btn primary">Voltar ao Portfólio</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 James Oliveira. Todos os direitos reservados.</p>
+      <div class="social-links">
+        <a href="https://linkedin.com/in/jamesoliveirabr" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/jamesismos" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://wa.me/5533988377981" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="mailto:contatoojames@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Verificar se o navegador suporta modo escuro
+    const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const savedTheme = localStorage.getItem('theme');
+    
+    // Aplicar modo escuro se for a preferência
+    if (savedTheme === 'dark' || (!savedTheme && prefersDarkMode)) {
+      document.body.classList.add('dark-mode');
+    }
+  </script>
+</body>
+</html> 

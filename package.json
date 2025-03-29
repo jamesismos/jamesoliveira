@@ -1,0 +1,16 @@
+{
+  "name": "james-oliveira-portfolio",
+  "version": "1.0.0",
+  "description": "Portfólio pessoal de James Oliveira",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "format": "prettier --write \"**/*.{html,css,js}\""
+  },
+  "author": "James Oliveira",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "serve": "^14.0.0"
+  }
+}
